@@ -1,4 +1,4 @@
-let a = 'eat'
+let a = 'madam'
 let b = a.split("")
 let rev = ''
 for (let i = a.length - 1; i >= 0; i--) {
@@ -10,3 +10,4 @@ if (a == rev) {
 } else {
   console.log(a + ' is not Palindrome')
 }
+
